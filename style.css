@@ -1,0 +1,106 @@
+p
+{
+  padding: 0px 0px 0px 0px;
+  width: fit-content;
+  height: fit-content;
+  font-size:x-large;
+}
+#p1
+{
+    position: relative;
+    top: 0px;
+    left: 600px;
+}
+#p2
+{
+    position: relative;
+    top: -15px;
+    left: 500px; 
+}
+#p3
+{
+    position: relative;
+    top: -25px;
+    left: 340px;
+}
+h2
+{
+    margin-left: 30px;
+    font-size:xx-large;
+    font-style: normal;
+    font-weight: 900;  
+}
+h3
+{
+    margin-left: 30px;
+    font-size:xx-large;
+    font-style: normal;
+    font-weight: 900;  
+}   
+ul
+{
+    margin-left: 60px;
+    font-size:x-large;
+    font-style: normal;
+    font-weight: 500;  
+}
+.x1
+{
+    margin-left: 60px;
+    font-size:x-large;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.c1
+{
+    display: flex;
+    margin-left: 400px;
+    padding: ;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 30px;
+    z-index: 2;
+}
+.c1 > div
+{
+    padding: 10px;
+    background-color:antiquewhite;
+    border-radius: 50px;
+    z-index: 1;
+}
+a
+{
+    text-decoration: none;
+}
+:target
+{
+
+}
+.c2
+{
+    position:relative;
+    top: 10px;
+}
+.c1{
+    position: sticky;
+    top: 50px;
+    margin-top: 40px;
+}
+.m1
+{
+    position:relative;
+    top: 10px;
+    overflow-y: scroll;
+    height: 450px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+.hr
+{
+    position:relative;
+    top: 10px;
+    
+}
